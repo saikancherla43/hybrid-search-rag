@@ -1,0 +1,431 @@
+{
+  "generated_at": "2026-09-28T01:05:42.944405+00:00",
+  "dense_backend": "sbert",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "rrf_k": 60,
+  "modes": {
+    "dense": {
+      "mode": "dense",
+      "k": 3,
+      "n_questions": 10,
+      "recall@3": 1.0,
+      "mrr": 0.9,
+      "questions": [
+        {
+          "question": "How much does the Growth plan cost per month?",
+          "relevant_docs": [
+            "pricing-plans"
+          ],
+          "retrieved_docs": [
+            "troubleshooting",
+            "pricing-plans",
+            "pricing-plans"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question": "What should I do if my deploy fails with a 502 Bad Gateway error?",
+          "relevant_docs": [
+            "troubleshooting"
+          ],
+          "retrieved_docs": [
+            "troubleshooting",
+            "webhooks",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How do I verify that a webhook payload is genuine?",
+          "relevant_docs": [
+            "webhooks"
+          ],
+          "retrieved_docs": [
+            "webhooks",
+            "webhooks",
+            "webhooks"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Is Acme Cloud SOC 2 certified?",
+          "relevant_docs": [
+            "security-compliance"
+          ],
+          "retrieved_docs": [
+            "security-compliance",
+            "security-compliance",
+            "integrations"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How do I authenticate API requests?",
+          "relevant_docs": [
+            "api-authentication"
+          ],
+          "retrieved_docs": [
+            "api-authentication",
+            "api-authentication",
+            "webhooks"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "What happens if my payment fails?",
+          "relevant_docs": [
+            "billing-invoices"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "billing-invoices",
+            "webhooks"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Which Git providers can I connect for automatic deploys?",
+          "relevant_docs": [
+            "getting-started",
+            "integrations"
+          ],
+          "retrieved_docs": [
+            "getting-started",
+            "integrations",
+            "security-compliance"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How many build minutes are included in the Starter plan?",
+          "relevant_docs": [
+            "pricing-plans"
+          ],
+          "retrieved_docs": [
+            "troubleshooting",
+            "pricing-plans",
+            "pricing-plans"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question": "How long does Acme Cloud retain deploy logs?",
+          "relevant_docs": [
+            "security-compliance"
+          ],
+          "retrieved_docs": [
+            "security-compliance",
+            "pricing-plans",
+            "getting-started"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Can I get a refund if I cancel my annual plan?",
+          "relevant_docs": [
+            "billing-invoices"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "billing-invoices",
+            "pricing-plans"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    "bm25": {
+      "mode": "bm25",
+      "k": 3,
+      "n_questions": 10,
+      "recall@3": 1.0,
+      "mrr": 0.8333,
+      "questions": [
+        {
+          "question": "How much does the Growth plan cost per month?",
+          "relevant_docs": [
+            "pricing-plans"
+          ],
+          "retrieved_docs": [
+            "pricing-plans",
+            "pricing-plans",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "What should I do if my deploy fails with a 502 Bad Gateway error?",
+          "relevant_docs": [
+            "troubleshooting"
+          ],
+          "retrieved_docs": [
+            "webhooks",
+            "billing-invoices",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question": "How do I verify that a webhook payload is genuine?",
+          "relevant_docs": [
+            "webhooks"
+          ],
+          "retrieved_docs": [
+            "webhooks",
+            "webhooks",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Is Acme Cloud SOC 2 certified?",
+          "relevant_docs": [
+            "security-compliance"
+          ],
+          "retrieved_docs": [
+            "security-compliance",
+            "security-compliance",
+            "api-authentication"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How do I authenticate API requests?",
+          "relevant_docs": [
+            "api-authentication"
+          ],
+          "retrieved_docs": [
+            "api-authentication",
+            "api-authentication",
+            "billing-invoices"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "What happens if my payment fails?",
+          "relevant_docs": [
+            "billing-invoices"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "troubleshooting",
+            "webhooks"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Which Git providers can I connect for automatic deploys?",
+          "relevant_docs": [
+            "getting-started",
+            "integrations"
+          ],
+          "retrieved_docs": [
+            "integrations",
+            "integrations",
+            "integrations"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How many build minutes are included in the Starter plan?",
+          "relevant_docs": [
+            "pricing-plans"
+          ],
+          "retrieved_docs": [
+            "troubleshooting",
+            "pricing-plans",
+            "api-authentication"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question": "How long does Acme Cloud retain deploy logs?",
+          "relevant_docs": [
+            "security-compliance"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "security-compliance",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question": "Can I get a refund if I cancel my annual plan?",
+          "relevant_docs": [
+            "billing-invoices"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "troubleshooting",
+            "api-authentication"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    "hybrid": {
+      "mode": "hybrid",
+      "k": 3,
+      "n_questions": 10,
+      "recall@3": 1.0,
+      "mrr": 0.8333,
+      "questions": [
+        {
+          "question": "How much does the Growth plan cost per month?",
+          "relevant_docs": [
+            "pricing-plans"
+          ],
+          "retrieved_docs": [
+            "troubleshooting",
+            "pricing-plans",
+            "pricing-plans"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question": "What should I do if my deploy fails with a 502 Bad Gateway error?",
+          "relevant_docs": [
+            "troubleshooting"
+          ],
+          "retrieved_docs": [
+            "webhooks",
+            "webhooks",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question": "How do I verify that a webhook payload is genuine?",
+          "relevant_docs": [
+            "webhooks"
+          ],
+          "retrieved_docs": [
+            "webhooks",
+            "webhooks",
+            "webhooks"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Is Acme Cloud SOC 2 certified?",
+          "relevant_docs": [
+            "security-compliance"
+          ],
+          "retrieved_docs": [
+            "security-compliance",
+            "security-compliance",
+            "integrations"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How do I authenticate API requests?",
+          "relevant_docs": [
+            "api-authentication"
+          ],
+          "retrieved_docs": [
+            "api-authentication",
+            "api-authentication",
+            "troubleshooting"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "What happens if my payment fails?",
+          "relevant_docs": [
+            "billing-invoices"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "webhooks",
+            "billing-invoices"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Which Git providers can I connect for automatic deploys?",
+          "relevant_docs": [
+            "getting-started",
+            "integrations"
+          ],
+          "retrieved_docs": [
+            "integrations",
+            "integrations",
+            "security-compliance"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "How many build minutes are included in the Starter plan?",
+          "relevant_docs": [
+            "pricing-plans"
+          ],
+          "retrieved_docs": [
+            "troubleshooting",
+            "pricing-plans",
+            "pricing-plans"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question": "How long does Acme Cloud retain deploy logs?",
+          "relevant_docs": [
+            "security-compliance"
+          ],
+          "retrieved_docs": [
+            "security-compliance",
+            "getting-started",
+            "billing-invoices"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question": "Can I get a refund if I cancel my annual plan?",
+          "relevant_docs": [
+            "billing-invoices"
+          ],
+          "retrieved_docs": [
+            "billing-invoices",
+            "billing-invoices",
+            "pricing-plans"
+          ],
+          "recall@3": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    }
+  }
+}

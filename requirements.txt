@@ -1,0 +1,8 @@
+# Core deps for the hybrid-search RAG demo.
+# sentence-transformers is the primary dense backend (all-MiniLM-L6-v2).
+# If the model can't be loaded, the pipeline falls back to TF-IDF
+# (scikit-learn) as the dense side and records the active backend.
+# BM25 is implemented from scratch in rag/bm25.py — stdlib only.
+sentence-transformers>=2.7.0
+scikit-learn>=1.4
+numpy>=1.26
